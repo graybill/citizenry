@@ -18,7 +18,7 @@ To create a Citizenry-compatible Heroku instance, you need to specify the stack:
     
     heroku create --stack bamboo-ree-1.8.7
 
-
+See https://github.com/reidab/citizenry/wiki/Deploying-to-Heroku for more info.
 
 
 Colophon
