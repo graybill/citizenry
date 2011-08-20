@@ -11,6 +11,7 @@ gem 'rails', '3.0.9'
 gem 'mysql2', '~> 0.2.0'
 # Uncomment if you're using sqlite
 # gem 'sqlite3-ruby', :require => 'sqlite3'
+gem 'pg'
 
 
 gem 'hoptoad_notifier'
@@ -19,6 +20,7 @@ gem 'hoptoad_notifier'
 gem 'httparty', '~> 0.7.4'
 gem "json", "~> 1.4.6"
 gem 'addressable', '~> 2.2.4'
+gem "json_builder"
 
 #--[ Authentication ]-----------------------------------------------------------
 gem 'devise', "~> 1.1.5"
