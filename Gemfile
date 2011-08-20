@@ -11,7 +11,8 @@ gem 'rails', '3.0.9'
 gem 'mysql2', '~> 0.2.0'
 # Uncomment if you're using sqlite
 # gem 'sqlite3-ruby', :require => 'sqlite3'
-
+# Uncomment if you're using postgresql
+gem 'pg'
 
 gem 'hoptoad_notifier'
 
@@ -80,6 +81,7 @@ group :development, :test do
   gem 'ruby-debug'
   gem 'annotate'
   gem "nifty-generators"
+  gem 'heroku'
 end
 
 
