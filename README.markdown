@@ -12,6 +12,14 @@ Requirements & Technical Details
 --------------------------------
 Citizenry is written in Ruby, using Rails 3.
 
+Deployment to Heroku
+--------------------------------
+To create a Citizenry-compatible Heroku instance, you need to specify the stack:
+    
+    heroku create --stack bamboo-ree-1.8.7
+
+
+
 
 Colophon
 --------
